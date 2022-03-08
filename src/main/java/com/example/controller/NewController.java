@@ -11,6 +11,7 @@ public class NewController {
 	@GetMapping("/getDate")
 	public Date getDate() {
 		
+		System.out.println("Hi Abhishek");
 		return new Date();
 	}
 	
