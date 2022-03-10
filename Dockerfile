@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-#FROM openjdk:16-alpine3.13
+FROM openjdk:16-alpine3.13
 
 #WORKDIR /app
 
@@ -8,9 +8,9 @@
 #COPY mvnw pom.xml ./
 #RUN ./mvnw dependency:go-offline
 
-COPY src ./src
+#COPY src ./src
 
-CMD ["./mvnw", "spring-boot:run"]
+#CMD ["./mvnw", "spring-boot:run"]
 
 
 ARG JAR_FILE=target/RentComparator-0.0.1-SNAPSHOT.jar
