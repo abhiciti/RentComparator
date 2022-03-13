@@ -23,3 +23,5 @@ COPY ${JAR_FILE} RentComparator-0.0.1-SNAPSHOT.jar
 
 # java -jar /opt/app/app.jar
 ENTRYPOINT ["java","-jar","RentComparator-0.0.1-SNAPSHOT.jar"]
+
+EXPOSE 8080
